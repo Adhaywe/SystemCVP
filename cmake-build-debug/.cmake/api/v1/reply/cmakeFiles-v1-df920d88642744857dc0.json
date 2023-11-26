@@ -1,0 +1,274 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/adam/Downloads/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "callbacks/CMakeLists.txt"
+		},
+		{
+			"path" : "clock_generator/CMakeLists.txt"
+		},
+		{
+			"path" : "custom_fifo/CMakeLists.txt"
+		},
+		{
+			"path" : "custom_signal/CMakeLists.txt"
+		},
+		{
+			"path" : "custom_tlm/CMakeLists.txt"
+		},
+		{
+			"path" : "datatypes/CMakeLists.txt"
+		},
+		{
+			"path" : "delta_delay/CMakeLists.txt"
+		},
+		{
+			"path" : "dynamic_processes/CMakeLists.txt"
+		},
+		{
+			"path" : "event_finder/CMakeLists.txt"
+		},
+		{
+			"path" : "feedback_loop/CMakeLists.txt"
+		},
+		{
+			"path" : "fifo_example/CMakeLists.txt"
+		},
+		{
+			"path" : "interfaces_ports/CMakeLists.txt"
+		},
+		{
+			"path" : "kpn_artificial_deadlock/CMakeLists.txt"
+		},
+		{
+			"path" : "kpn_example/CMakeLists.txt"
+		},
+		{
+			"path" : "multiports/CMakeLists.txt"
+		},
+		{
+			"path" : "mutex_example/CMakeLists.txt"
+		},
+		{
+			"path" : "nb_fifo_example/CMakeLists.txt"
+		},
+		{
+			"path" : "not_chain/CMakeLists.txt"
+		},
+		{
+			"path" : "portarrays/CMakeLists.txt"
+		},
+		{
+			"path" : "reporting/CMakeLists.txt"
+		},
+		{
+			"path" : "sc_event_and_queue/CMakeLists.txt"
+		},
+		{
+			"path" : "swapping_example/CMakeLists.txt"
+		},
+		{
+			"path" : "thread_example/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_at_1/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_at_2/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_at_3/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_at_4/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_at_backpressure/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_cpu_example/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_lt_debug_transport/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_lt_dmi/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_lt_initiator_interconnect_target/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_lt_initiator_target/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_memory_manager/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_multipasstrough_sockets/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_payload_extensions/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_protocol_checker/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_quantum_keeper/CMakeLists.txt"
+		},
+		{
+			"path" : "tlm_simple_sockets/CMakeLists.txt"
+		},
+		{
+			"path" : "ams-eln/CMakeLists.txt"
+		},
+		{
+			"path" : "ams-eln2/CMakeLists.txt"
+		},
+		{
+			"path" : "ams-tdf/CMakeLists.txt"
+		},
+		{
+			"path" : "ams-tdf2/CMakeLists.txt"
+		},
+		{
+			"path" : "ams-lsf/CMakeLists.txt"
+		},
+		{
+			"path" : "ams-lsf2/CMakeLists.txt"
+		},
+		{
+			"path" : "Exercises/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/adam/syc/SystemCVP/cmake-build-debug",
+		"source" : "/home/adam/syc/SystemCVP"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

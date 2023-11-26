@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tlm_multipasstrough_sockets",
+		"source" : "tlm_multipasstrough_sockets"
+	}
+}
