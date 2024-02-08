@@ -53,7 +53,17 @@
 						43,
 						44,
 						45,
-						46
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -210,7 +220,7 @@
 					"source" : "feedback_loop",
 					"targetIndexes" : 
 					[
-						16
+						26
 					]
 				},
 				{
@@ -225,7 +235,7 @@
 					"source" : "fifo_example",
 					"targetIndexes" : 
 					[
-						17
+						27
 					]
 				},
 				{
@@ -240,7 +250,7 @@
 					"source" : "interfaces_ports",
 					"targetIndexes" : 
 					[
-						18
+						28
 					]
 				},
 				{
@@ -255,7 +265,7 @@
 					"source" : "kpn_artificial_deadlock",
 					"targetIndexes" : 
 					[
-						19
+						29
 					]
 				},
 				{
@@ -270,7 +280,7 @@
 					"source" : "kpn_example",
 					"targetIndexes" : 
 					[
-						20
+						30
 					]
 				},
 				{
@@ -285,7 +295,7 @@
 					"source" : "multiports",
 					"targetIndexes" : 
 					[
-						21
+						31
 					]
 				},
 				{
@@ -300,7 +310,7 @@
 					"source" : "mutex_example",
 					"targetIndexes" : 
 					[
-						22
+						32
 					]
 				},
 				{
@@ -315,7 +325,7 @@
 					"source" : "nb_fifo_example",
 					"targetIndexes" : 
 					[
-						23
+						33
 					]
 				},
 				{
@@ -330,7 +340,7 @@
 					"source" : "not_chain",
 					"targetIndexes" : 
 					[
-						24
+						34
 					]
 				},
 				{
@@ -345,7 +355,7 @@
 					"source" : "portarrays",
 					"targetIndexes" : 
 					[
-						25
+						35
 					]
 				},
 				{
@@ -360,7 +370,7 @@
 					"source" : "reporting",
 					"targetIndexes" : 
 					[
-						26
+						36
 					]
 				},
 				{
@@ -375,7 +385,7 @@
 					"source" : "sc_event_and_queue",
 					"targetIndexes" : 
 					[
-						27
+						37
 					]
 				},
 				{
@@ -390,7 +400,7 @@
 					"source" : "swapping_example",
 					"targetIndexes" : 
 					[
-						28
+						38
 					]
 				},
 				{
@@ -405,7 +415,7 @@
 					"source" : "thread_example",
 					"targetIndexes" : 
 					[
-						29
+						39
 					]
 				},
 				{
@@ -420,7 +430,7 @@
 					"source" : "tlm_at_1",
 					"targetIndexes" : 
 					[
-						30
+						40
 					]
 				},
 				{
@@ -435,7 +445,7 @@
 					"source" : "tlm_at_2",
 					"targetIndexes" : 
 					[
-						31
+						41
 					]
 				},
 				{
@@ -450,7 +460,7 @@
 					"source" : "tlm_at_3",
 					"targetIndexes" : 
 					[
-						32
+						42
 					]
 				},
 				{
@@ -465,7 +475,7 @@
 					"source" : "tlm_at_4",
 					"targetIndexes" : 
 					[
-						33
+						43
 					]
 				},
 				{
@@ -480,7 +490,7 @@
 					"source" : "tlm_at_backpressure",
 					"targetIndexes" : 
 					[
-						34
+						44
 					]
 				},
 				{
@@ -495,7 +505,7 @@
 					"source" : "tlm_cpu_example",
 					"targetIndexes" : 
 					[
-						35
+						45
 					]
 				},
 				{
@@ -510,7 +520,7 @@
 					"source" : "tlm_lt_debug_transport",
 					"targetIndexes" : 
 					[
-						36
+						46
 					]
 				},
 				{
@@ -525,7 +535,7 @@
 					"source" : "tlm_lt_dmi",
 					"targetIndexes" : 
 					[
-						37
+						47
 					]
 				},
 				{
@@ -540,7 +550,7 @@
 					"source" : "tlm_lt_initiator_interconnect_target",
 					"targetIndexes" : 
 					[
-						38
+						48
 					]
 				},
 				{
@@ -555,7 +565,7 @@
 					"source" : "tlm_lt_initiator_target",
 					"targetIndexes" : 
 					[
-						39
+						49
 					]
 				},
 				{
@@ -570,7 +580,7 @@
 					"source" : "tlm_memory_manager",
 					"targetIndexes" : 
 					[
-						40
+						50
 					]
 				},
 				{
@@ -585,7 +595,7 @@
 					"source" : "tlm_multipasstrough_sockets",
 					"targetIndexes" : 
 					[
-						41
+						51
 					]
 				},
 				{
@@ -600,7 +610,7 @@
 					"source" : "tlm_payload_extensions",
 					"targetIndexes" : 
 					[
-						42
+						52
 					]
 				},
 				{
@@ -615,7 +625,7 @@
 					"source" : "tlm_protocol_checker",
 					"targetIndexes" : 
 					[
-						43
+						53
 					]
 				},
 				{
@@ -630,7 +640,7 @@
 					"source" : "tlm_quantum_keeper",
 					"targetIndexes" : 
 					[
-						44
+						54
 					]
 				},
 				{
@@ -645,7 +655,7 @@
 					"source" : "tlm_simple_sockets",
 					"targetIndexes" : 
 					[
-						45
+						55
 					]
 				},
 				{
@@ -752,6 +762,156 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "exercise2",
+					"jsonFile" : "directory-exercise2-Debug-e61e82819cd38881efb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise2",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "ex2",
+					"jsonFile" : "directory-ex2-Debug-6c58934fd74744e4b321.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ex2",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "exercise3",
+					"jsonFile" : "directory-exercise3-Debug-20484765f611f7930ba0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise3",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "ex3",
+					"jsonFile" : "directory-ex3-Debug-95050fbb003bef7afcb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ex3",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "exercise4",
+					"jsonFile" : "directory-exercise4-Debug-1f68a4612b126fb01bf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise4",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "ex4",
+					"jsonFile" : "directory-ex4-Debug-453b6bc6b2d232628846.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ex4",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "exercise5",
+					"jsonFile" : "directory-exercise5-Debug-33e61b710882db46b2ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise5",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "ex5",
+					"jsonFile" : "directory-ex5-Debug-dbe654a0cc9226f46bf7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ex5",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "exercise6",
+					"jsonFile" : "directory-exercise6-Debug-95dab9f5c964e6c1839e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise6",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "ex6",
+					"jsonFile" : "directory-ex6-Debug-fd042d87f2025765ac32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ex6",
+					"targetIndexes" : 
+					[
+						20
+					]
 				}
 			],
 			"name" : "Debug",
@@ -806,7 +966,17 @@
 						43,
 						44,
 						45,
-						46
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56
 					],
 					"name" : "SCVP_Artifacts",
 					"targetIndexes" : 
@@ -856,7 +1026,17 @@
 						42,
 						43,
 						44,
-						45
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55
 					]
 				}
 			],
@@ -865,7 +1045,7 @@
 				{
 					"directoryIndex" : 46,
 					"id" : "Exercises::@cefd7a054c5858ffb025",
-					"jsonFile" : "target-Exercises-Debug-b60beec5478b9d294e0a.json",
+					"jsonFile" : "target-Exercises-Debug-e77970c4fef552d46094.json",
 					"name" : "Exercises",
 					"projectIndex" : 0
 				},
@@ -972,6 +1152,76 @@
 					"id" : "event_finder::@d3c33157223a5626e986",
 					"jsonFile" : "target-event_finder-Debug-98f7772a4a026d1d13a9.json",
 					"name" : "event_finder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "ex2::@90cc7eabafb06eba8af5",
+					"jsonFile" : "target-ex2-Debug-8038eb245f3126397e10.json",
+					"name" : "ex2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "ex3::@72ee8839e4d8e89b02ff",
+					"jsonFile" : "target-ex3-Debug-fc0000c9d2442cf08daf.json",
+					"name" : "ex3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "ex4::@23ce2bd2cec6375b0e52",
+					"jsonFile" : "target-ex4-Debug-bf76949effe3eb4a4743.json",
+					"name" : "ex4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "ex5::@19af34f5c2fe92570fd2",
+					"jsonFile" : "target-ex5-Debug-13b57ce8f8d64f0db467.json",
+					"name" : "ex5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "ex6::@b004e84bbe31d0a528e1",
+					"jsonFile" : "target-ex6-Debug-6b88c1b3687a1f5da2a7.json",
+					"name" : "ex6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "exercise2::@25d52716a5e8129195e2",
+					"jsonFile" : "target-exercise2-Debug-8867cbdd9babb6a4de87.json",
+					"name" : "exercise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "exercise3::@e0436f5836491ac08b82",
+					"jsonFile" : "target-exercise3-Debug-bd5fabb7e7132d3b1041.json",
+					"name" : "exercise3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "exercise4::@677751b15ad3111d2386",
+					"jsonFile" : "target-exercise4-Debug-2bd970f521d0c7eac18f.json",
+					"name" : "exercise4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "exercise5::@3f4698453bc47d230f0f",
+					"jsonFile" : "target-exercise5-Debug-b191a92bf19f9eee506e.json",
+					"name" : "exercise5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "exercise6::@2dad22a3bc3e0a344a0f",
+					"jsonFile" : "target-exercise6-Debug-327098f8fa847df1cf32.json",
+					"name" : "exercise6",
 					"projectIndex" : 0
 				},
 				{

@@ -1,0 +1,88 @@
+//
+// Created by adam on 05.01.24.
+//
+
+#ifndef MEMORY_H
+#define MEMORY_H
+
+#include <iostream>
+#include <tlm.h>
+#include <systemc.h>
+
+
+// TODO: add your code here
+template<std::size_t MemorySize = 512>
+class memory : public sc_module, public tlm::tlm_fw_transport_if<>
+{
+private:
+    unsigned char mem[MemorySize];
+
+public:
+    tlm::tlm_target_socket<> tSocket; //was 0
+
+    SC_CTOR(memory) : tSocket("tSocket")
+    {
+        tSocket.bind(*this);
+        //tSocket[1].bind(*this);
+    }
+
+    void b_transport(tlm::tlm_generic_payload &trans, sc_time &delay)
+    {
+        if (trans.get_address() >= 512)
+        {
+            trans.set_response_status( tlm::TLM_ADDRESS_ERROR_RESPONSE );
+            return;
+        }
+
+        if (trans.get_data_length() != 1)
+        {
+            trans.set_response_status( tlm::TLM_BURST_ERROR_RESPONSE );
+            return;
+        }
+
+        if(trans.get_command() == tlm::TLM_WRITE_COMMAND)
+        {
+            memcpy(&mem[trans.get_address()], // destination
+                   trans.get_data_ptr(),      // source
+                   trans.get_data_length());  // size
+        }
+        else // (trans.get_command() == tlm::TLM_READ_COMMAND)
+        {
+            memcpy(trans.get_data_ptr(),      // destination
+                   &mem[trans.get_address()], // source
+                   trans.get_data_length());  // size
+        }
+
+        delay = delay + sc_time(20, SC_NS); //was 40 changed to 20
+
+        trans.set_response_status( tlm::TLM_OK_RESPONSE );
+    }
+
+    // Dummy method
+    virtual tlm::tlm_sync_enum nb_transport_fw(
+            tlm::tlm_generic_payload& trans,
+            tlm::tlm_phase& phase,
+            sc_time& delay )
+    {
+        SC_REPORT_FATAL(this->name(),"nb_transport_fw is not implemented");
+        return tlm::TLM_ACCEPTED;
+    }
+
+    // Dummy method
+    bool get_direct_mem_ptr(tlm::tlm_generic_payload& trans,
+                            tlm::tlm_dmi& dmi_data)
+    {
+        SC_REPORT_FATAL(this->name(),"get_direct_mem_ptr is not implemented");
+        return false;
+    }
+
+    // Dummy method
+    unsigned int transport_dbg(tlm::tlm_generic_payload& trans)
+    {
+        SC_REPORT_FATAL(this->name(),"transport_dbg is not implemented");
+        return 0;
+    }
+
+};
+
+#endif // MEMORY_H
