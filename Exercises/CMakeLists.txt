@@ -1,5 +1,7 @@
 add_executable(Exercises
-	addermain.cpp
+        tlm_main.cpp
+        ##tlm_std.cpp
+
 )
 
 target_include_directories(Exercises

@@ -227,6 +227,15 @@ SYSTEMC_AMS_LIBRARY:FILEPATH=/opt/systemc-ams/lib-linux64/libsystemc-ams.so
 //Path to a library.
 SYSTEMC_LIBRARY:FILEPATH=/opt/systemc/lib-linux64/libsystemc.so
 
+//Value Computed by CMake
+ex4_BINARY_DIR:STATIC=/home/adam/syc/SystemCVP/cmake-build-debug/ex4
+
+//Value Computed by CMake
+ex4_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ex4_SOURCE_DIR:STATIC=/home/adam/syc/SystemCVP/ex4
+
 
 ########################
 # INTERNAL cache entries
@@ -328,7 +337,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=47
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=57
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
