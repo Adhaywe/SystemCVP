@@ -11,7 +11,7 @@ find_library(SYSTEMC_LIBRARY
 find_library(SYSTEMC_AMS_LIBRARY 
     NAMES systemc-ams
     #PATHS /opt/systemc-ams/lib-macosx64/ # Uncomment for macOS
-    PATHS $ENV{SYSTEMC_AMS_HOME}/lib-$ENV{SYSTEMC_AMS_TARGET_ARCH}/
+    PATHS $ENV{SYSTEMC_AMS_HOME}/lib-$ENV{SYSTEMC_TARGET_ARCH}/
 )
 
 set(SYSTEMC_INCLUDE $ENV{SYSTEMC_HOME}/include)
@@ -66,14 +66,3 @@ add_subdirectory(ams-tdf2)
 add_subdirectory(ams-lsf)
 add_subdirectory(ams-lsf2)
 add_subdirectory(Exercises)
-add_subdirectory(exercise2)
-add_subdirectory(ex2)
-add_subdirectory(exercise3)
-add_subdirectory(ex3)
-add_subdirectory(exercise4)
-add_subdirectory(ex4)
-add_subdirectory(exercise5)
-add_subdirectory(ex5)
-add_subdirectory(exercise6)
-add_subdirectory(ex6)
-

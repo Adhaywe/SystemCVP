@@ -258,36 +258,6 @@
 		},
 		{
 			"path" : "Exercises/CMakeLists.txt"
-		},
-		{
-			"path" : "exercise2/CMakeLists.txt"
-		},
-		{
-			"path" : "ex2/CMakeLists.txt"
-		},
-		{
-			"path" : "exercise3/CMakeLists.txt"
-		},
-		{
-			"path" : "ex3/CMakeLists.txt"
-		},
-		{
-			"path" : "exercise4/CMakeLists.txt"
-		},
-		{
-			"path" : "ex4/CMakeLists.txt"
-		},
-		{
-			"path" : "exercise5/CMakeLists.txt"
-		},
-		{
-			"path" : "ex5/CMakeLists.txt"
-		},
-		{
-			"path" : "exercise6/CMakeLists.txt"
-		},
-		{
-			"path" : "ex6/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

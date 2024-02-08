@@ -2,4 +2,3 @@
 -- Configuring done (0.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: /home/adam/syc/SystemCVP/cmake-build-debug
-CMake File API: /home/adam/syc/SystemCVP/cmake-build-debug: failed to load from '/home/adam/syc/SystemCVP/cmake-build-debug/.cmake/api/v1/reply/target-Exercises-Debug-e77970c4fef552d46094.json'
