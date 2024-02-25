@@ -1,0 +1,8 @@
+//
+// Created by adam on 22.02.24.
+//
+
+#ifndef SCVP_ARTIFACTS_STATE_MACHINE_H
+#define SCVP_ARTIFACTS_STATE_MACHINE_H
+
+#endif //SCVP_ARTIFACTS_STATE_MACHINE_H

@@ -1,0 +1,8 @@
+//
+// Created by adam on 24.02.24.
+//
+
+#ifndef SCVP_ARTIFACTS_MEMORY_MANAGER_H
+#define SCVP_ARTIFACTS_MEMORY_MANAGER_H
+
+#endif //SCVP_ARTIFACTS_MEMORY_MANAGER_H
