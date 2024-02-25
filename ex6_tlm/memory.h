@@ -10,8 +10,8 @@
 #include <systemc.h>
 
 
-// TODO: add your code here
-template<std::size_t MemorySize = 512>
+
+template<std::size_t MemorySize = 1024> //task 1 - 1024
 class memory : public sc_module, public tlm::tlm_fw_transport_if<>
 {
 private:

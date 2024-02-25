@@ -1,7 +1,3 @@
-//
-// Created by adam on 05.01.24.
-//
-
 #ifndef BUS_H
 #define BUS_H
 
@@ -10,9 +6,7 @@
 #include <tlm.h>
 
 
-class bus : public sc_module,
-            public tlm::tlm_bw_transport_if<>,
-            public tlm::tlm_fw_transport_if<>
+class bus : public sc_module, public tlm::tlm_bw_transport_if<>, public tlm::tlm_fw_transport_if<>
 {
 public:
     tlm::tlm_initiator_socket<> iSocket[2];
@@ -29,7 +23,7 @@ public:
     void b_transport(tlm::tlm_generic_payload &trans, sc_time &delay)
     {
         // Annotate Bus Delay
-        delay = delay + sc_time(20, SC_NS);
+        delay = delay + sc_time(40, SC_NS);
 
         if(trans.get_address() < 512)
         {
