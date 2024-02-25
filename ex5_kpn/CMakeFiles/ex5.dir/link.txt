@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/ex5.dir/main.cpp.o CMakeFiles/ex5.dir/kpn.cpp.o -o ex5  -Wl,-rpath,/opt/systemc/lib-linux64 /opt/systemc/lib-linux64/libsystemc.so 
