@@ -1,4 +1,4 @@
-add_executable(ex6
+add_executable(ex6_tlm
         main.cpp
         bus.h
         memory.h
@@ -8,10 +8,10 @@ add_executable(ex6
         main.cpp
 )
 
-target_include_directories(ex6
+target_include_directories(ex6_tlm
         PRIVATE ${SYSTEMC_INCLUDE}
 )
 
-target_link_libraries(ex6
+target_link_libraries(ex6_tlm
         PRIVATE ${SYSTEMC_LIBRARY}
 )
