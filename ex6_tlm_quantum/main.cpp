@@ -15,9 +15,9 @@
 int sc_main (int, char **)
 {
 
-    processor * cpu0 = new processor("cpu0", "/home/adam/syc/SystemCVP/ex66/stimuli1.txt", sc_time(1, SC_NS));
+    processor * cpu0 = new processor("cpu0", "/home/adam/syc/SystemCVP/ex6_tlm_quantum/stimuli1.txt", sc_time(1, SC_NS));
 
-    processor * cpu1 = new processor("cpu1", "/home/adam/syc/SystemCVP/ex66/stimuli2.txt", sc_time(1, SC_NS));
+    processor * cpu1 = new processor("cpu1", "/home/adam/syc/SystemCVP/ex6_tlm_quantum/stimuli2.txt", sc_time(1, SC_NS));
 
     // Task1
     memory<512> * memory0 = new memory<512>("memory0");

@@ -1,4 +1,4 @@
-add_executable(ex66
+add_executable(ex6_tlm_quantum
         main.cpp
         bus.h
         memory.h
@@ -8,10 +8,10 @@ add_executable(ex66
         main.cpp
 )
 
-target_include_directories(ex66
+target_include_directories(ex6_tlm_quantum
         PRIVATE ${SYSTEMC_INCLUDE}
 )
 
-target_link_libraries(ex66
+target_link_libraries(ex6_tlm_quantum
         PRIVATE ${SYSTEMC_LIBRARY}
 )
