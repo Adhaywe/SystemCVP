@@ -84,15 +84,15 @@ private:
     }
 };
 
-int sc_main(int, char**)
-{
-    // The toplevel module is instantiated here. Its constructor will be
-    // called.
-    toplevel top("toplevel");
-
-    // Simulation starts here.
-    sc_start();
-
-    // Return zero after the end of the simulation.
-    return 0;
-}
+//int sc_main(int, char**)
+//{
+//    // The toplevel module is instantiated here. Its constructor will be
+//    // called.
+//    toplevel top("toplevel");
+//
+//    // Simulation starts here.
+//    sc_start();
+//
+//    // Return zero after the end of the simulation.
+//    return 0;
+//}

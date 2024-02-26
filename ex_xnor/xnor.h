@@ -16,10 +16,11 @@ SC_MODULE(exor) {
     sc_signal<bool> h1;
     sc_signal<bool> h2;
     sc_signal<bool> h3;
+    sc_signal<bool> h4;
 
-    nand n1, n2, n3, n4;
+    nand n1, n2, n3, n4, n5;
 
-    SC_CTOR(exor): n1("n1"), n2("n2"), n3("n3"), n4("n4"), A("A"), B("B"), Z("Z"), h1("h1"), h2("h2"), h3("h3")
+    SC_CTOR(exor): n1("n1"), n2("n2"), n3("n3"), n4("n4"), n5("n5"), A("A"), B("B"), Z("Z"), h1("h1"), h2("h2"), h3("h3"), h4("h4")
     {
         n1.A.bind(A);
         n1.B.bind(B);
@@ -35,7 +36,11 @@ SC_MODULE(exor) {
 
         n4.A.bind(h2);
         n4.B.bind(h3);
-        n4.Z.bind(Z);
+        n4.Z.bind(h4);
+
+        n5.A.bind(h4);
+        n5.B.bind(h4);
+        n5.Z.bind(Z);
 
     }
 };

@@ -1,18 +1,18 @@
-add_executable(ex2_exor_2
+add_executable(ex_xnor
         nand.h
-
-        exor_main.cpp
-        exor.h
+        nand_main.cpp
+        xnor_main.cpp
+        xnor.h
         stim.h
         mon.h
 )
 
-target_include_directories(ex2_exor_2
+target_include_directories(ex_xnor
         PRIVATE ${SYSTEMC_AMS_INCLUDE}
         PRIVATE ${SYSTEMC_INCLUDE}
 )
 
-target_link_libraries(ex2_exor_2
+target_link_libraries(ex_xnor
         PRIVATE ${SYSTEMC_AMS_LIBRARY}
         PRIVATE ${SYSTEMC_LIBRARY}
 )

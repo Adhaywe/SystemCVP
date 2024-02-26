@@ -5,7 +5,7 @@
 #include <systemc.h>
 
 #include "stim.h"
-#include "exor.h"
+#include "xnor.h"
 #include "mon.h"
 
 int sc_main(int, char**)
