@@ -54,7 +54,7 @@ processor::processor(sc_module_name, std::string pathToFile, sc_time cycleTime) 
     SC_THREAD(processRandom);
 
     iSocket.bind(*this);
-    quantumKeeper.set_global_quantum(sc_time(10000,SC_NS)); // STATIC!
+    quantumKeeper.set_global_quantum(sc_time(1000,SC_NS)); // STATIC!
     quantumKeeper.reset();
 }
 
@@ -251,7 +251,7 @@ void processor::processRandom()
                 quantumKeeper.sync();
             }
 
-        //wait(delay);
+        wait(delay);
     }
 
     // End Simulation because there are no events.
