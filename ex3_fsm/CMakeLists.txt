@@ -1,4 +1,4 @@
-add_executable(ex3
+add_executable(ex3_fsm
         main.cpp
         state_machine.cpp
         stimuli.cpp
@@ -6,11 +6,11 @@ add_executable(ex3
         state_machine.h
 )
 
-target_include_directories(ex3
+target_include_directories(ex3_fsm
         PRIVATE ${SYSTEMC_INCLUDE}
 )
 
-target_link_libraries(ex3
+target_link_libraries(ex3_fsm
         PRIVATE ${SYSTEMC_LIBRARY}
 )
 
