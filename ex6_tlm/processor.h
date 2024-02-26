@@ -13,7 +13,7 @@
 #include <tlm_utils/tlm_quantumkeeper.h>
 
 
-class processor : public sc_module, public tlm::tlm_bw_transport_if<>
+class processor : public sc_module, tlm::tlm_bw_transport_if<>
 {
 private:
     std::ifstream file;
@@ -226,16 +226,7 @@ void processor::processRandom()
         cycles = distrCycle(randGenerator);
         address = distrAddr(randGenerator);
 
-        sc_time delay;
-
-        if (sc_time_stamp() <= cycles * cycleTime)
-        {
-            delay = cycles * cycleTime - sc_time_stamp();
-        }
-        else
-        {
-            delay = SC_ZERO_TIME;
-        }
+        sc_time delay = cycles * cycleTime;
 
         trans.set_address(address);
         iSocket->b_transport(trans, delay);
