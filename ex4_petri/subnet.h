@@ -36,7 +36,6 @@ SC_MODULE(subnet) {
         WR.in.bind(ACTIVE);
         WR.out.bind(ACTIVE);
         WR.inhibitors.bind(ACTIVE);
-
     }
 };
 
