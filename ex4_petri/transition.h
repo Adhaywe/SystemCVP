@@ -74,6 +74,7 @@ SC_MODULE(transition){
 //        }
 
 
+       //part 3
         void fire() {
             bool tokens = true;
 
