@@ -76,10 +76,7 @@ int sc_main (int, char **) {
 
 
     toplevel tp ("tp");
-
     sc_start();
-
-
 
     return 0;
 }

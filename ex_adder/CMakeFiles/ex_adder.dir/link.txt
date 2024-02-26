@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/ex_adder.dir/main.cpp.o -o ex_adder  -Wl,-rpath,/opt/systemc/lib-linux64 /opt/systemc/lib-linux64/libsystemc.so 
