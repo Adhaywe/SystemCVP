@@ -15,14 +15,14 @@ public:
     virtual void removeTokens() = 0;
     virtual unsigned int testTokens() = 0;
 
-    //virtual void addTokens(unsigned int n) = 0;
-    //virtual void removeTokens(unsigned int n) = 0;
-    //virtual unsigned int testTokens() = 0;
+//    virtual void addTokens(unsigned int n) = 0;
+//    virtual void removeTokens(unsigned int n) = 0;
+//    virtual unsigned int testTokens() = 0;
 };
 
 // Place Channel:
 template<unsigned int Win=1, unsigned int Wout=1>
-class place: public placeInterface {
+class place: public placeInterface { //inherits from class placeInterface
 private:
     unsigned int tokens;
 
@@ -32,10 +32,12 @@ public:
     }
     void addTokens() { //unsigned int n
         tokens = tokens + Win;
+        //tokens += 1;
     }
 
     void removeTokens() { //unsigned int n
         tokens = tokens - Wout;
+        //tokens -= 1;
     }
 
     unsigned int testTokens() {

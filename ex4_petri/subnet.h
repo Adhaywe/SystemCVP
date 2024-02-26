@@ -12,10 +12,10 @@
 
 // Subnet:
 SC_MODULE(subnet) {
-    transition<1, 1> ACT;
-    transition<1, 1> RD;
-    transition<1, 1> PRE;
-    transition<1, 1> WR;
+    transition<1, 1, 1> ACT;
+    transition<1, 1, 0> RD;
+    transition<1, 1, 0> PRE;
+    transition<1, 1, 0> WR;
 
     place<2, 2> IDLE; //number of inputs and outputs
     place<3, 3> ACTIVE;
@@ -24,15 +24,18 @@ SC_MODULE(subnet) {
                      RD("RD"), PRE("PRE"), WR("WR")
     {
         ACT.out.bind(ACTIVE);
-        //ACT.inhibitors.bind(ACTIVE);
+        ACT.inhibitors.bind(ACTIVE);
 
         RD.in.bind(ACTIVE);
         RD.out.bind(ACTIVE);
+        RD.inhibitors.bind(ACTIVE);
 
         PRE.in.bind(ACTIVE);
+        PRE.inhibitors.bind(ACTIVE);
 
         WR.in.bind(ACTIVE);
         WR.out.bind(ACTIVE);
+        WR.inhibitors.bind(ACTIVE);
 
     }
 };
