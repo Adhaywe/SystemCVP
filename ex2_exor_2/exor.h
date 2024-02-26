@@ -40,4 +40,5 @@ SC_MODULE(exor) {
     }
 };
 
+
 #endif // EXOR_H
