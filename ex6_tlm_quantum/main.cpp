@@ -15,31 +15,27 @@
 int sc_main (int, char **)
 {
 
-    // Task1 - one cpu - one memory
-    processor * cpu0 = new processor("cpu0", "/home/adam/syc/SystemCVP/ex6_tlm_quantum/stimuli1.txt", sc_time(1, SC_NS));
+    processor * cpu0 = new processor("cpu0", "/home/adam/syc/SystemCVP/ex66/stimuli1.txt", sc_time(1, SC_NS));
 
-    memory<1024> * memory0 = new memory<1024>("memory0");
+    processor * cpu1 = new processor("cpu1", "/home/adam/syc/SystemCVP/ex66/stimuli2.txt", sc_time(1, SC_NS));
 
-    //Task2
-    processor * cpu1 = new processor("cpu1", "/home/adam/syc/SystemCVP/ex6_tlm_quantum/stimuli2.txt", sc_time(1, SC_NS));
+    // Task1
+    memory<512> * memory0 = new memory<512>("memory0");
 
-    memory<1024> * memory1 = new memory<1024>("memory1");
+    memory<512> * memory1 = new memory<512>("memory1");
 
     bus * b = new bus("b");
 
 
 
+    //cpu0->iSocket.bind(b->tSocket[0]); //task1
     //binding
-    //cpu0->iSocket.bind(memory0->tSocket); //task1
-
-    //task 2 - 2 cpu - bus - 2 memory blocks
     cpu0->iSocket.bind(b->tSocket[0]);
     cpu1->iSocket.bind(b->tSocket[1]);
 
+
     b->iSocket[0].bind(memory0->tSocket);
     b->iSocket[1].bind(memory1->tSocket);
-
-
 
 
 
