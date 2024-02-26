@@ -11,7 +11,7 @@ SC_MODULE(stateMachine) {
     sc_in<char> input;
     sc_in<bool> clk;
 
-    enum base {Start, G_s, GA, GAA, GAAG, GAAAG, GAAAAG};
+    enum base {Start, G_s, GA, GAA, GAAG, GAAA, GAAAG, GAAAA, GAAAAG};
 
     base currentState = Start;
 

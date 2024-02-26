@@ -43,23 +43,38 @@ void stateMachine::process() {
             break;
 
         case GAA:
-            if (dna == 'G') {
-                currentState = GAAG;
+            if (dna == 'A') {
+                currentState = GAAA;
             }
-            else if (dna == 'A' || dna == 'C' || dna == 'T') {
+            else if (dna == 'G') {
+                currentState = GAAG;
+                std::cout << "State 1 GAAG" << std::endl;
+            }
+            else if (dna == 'C' || dna == 'T') {
                 currentState = Start;
             }
             break;
 
         case GAAG:
 
-            std::cout << "We are in state 1 GAAG" << std::endl;
-
             if (dna == 'G') {
+
                 currentState = G_s;
             }
-            else if (dna == 'A') {
+            else if (dna == 'A' || dna == 'C' || dna == 'T') {
+                currentState = Start;
+            }
+            break;
+
+
+        case GAAA:
+
+            if (dna == 'G') {
                 currentState = GAAAG;
+                std::cout << "State 2 GAAAG "<< std::endl;
+            }
+            else if (dna == 'A') {
+                currentState = GAAAA;
             }
             else if (dna == 'C' || dna == 'T') {
                 currentState = Start;
@@ -68,23 +83,6 @@ void stateMachine::process() {
 
         case GAAAG:
 
-            std::cout << "We are in state 2 GAAAG" << std::endl;
-
-            if (dna == 'A') {
-                currentState = GAAAAG;
-            }
-            else if (dna == 'G') {
-                currentState = G_s;
-            }
-            else if (dna == 'C' || dna == 'T') {
-                currentState = Start;
-            }
-            break;
-
-        case GAAAAG:
-
-            std::cout << "We are in state 3 GAAAAG" << std::endl;
-
             if (dna == 'G') {
                 currentState = G_s;
             }
@@ -93,6 +91,24 @@ void stateMachine::process() {
             }
             break;
 
+        case GAAAA:
+            if (dna == 'G') {
+                currentState = GAAAAG;
+                std::cout << "State 3 GAAAAG" << std::endl;
+            }
+            else if (dna == 'C' || dna == 'T') {
+                currentState = Start;
+            }
+            break;
+
+        case GAAAAG:
+            if (dna == 'G') {
+                currentState = G_s;
+            }
+            else if (dna == 'C' || dna == 'C' || dna == 'T') {
+                currentState = Start;
+            }
+            break;
 
         default:
             break;
