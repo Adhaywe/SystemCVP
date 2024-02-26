@@ -83,9 +83,9 @@ public:
 };
 
 //int sc_main(int argc, char* argv[]) {
-  //  toplevel tb("test");
-
-    //sc_start();
-    //return 0;
-
-//c}
+//    toplevel tb("test");
+//
+//    sc_start();
+//    return 0;
+//
+//}
