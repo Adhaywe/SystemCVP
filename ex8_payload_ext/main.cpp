@@ -180,8 +180,8 @@ private:
 int sc_main (int, char **) {
     Initiator *cpu1 = new Initiator("C1");
 
-    Target *memory1 = new Target("M1", 2);
-    Target *memory2 = new Target("M2", 2);
+    Target *memory1 = new Target("M1", 1);
+    Target *memory2 = new Target("M2", 1);
 
     Interconnect *bus = new Interconnect("B1");
 

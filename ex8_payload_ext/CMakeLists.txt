@@ -1,4 +1,4 @@
-add_executable(ex8
+add_executable(ex8_payload_ext
         main.cpp
         initiator.h
         memory_manager.h
@@ -8,10 +8,10 @@ add_executable(ex8
         util.h
 )
 
-target_include_directories(ex8
+target_include_directories(ex8_payload_ext
         PRIVATE ${SYSTEMC_INCLUDE}
 )
 
-target_link_libraries(ex8
+target_link_libraries(ex8_payload_ext
         PRIVATE ${SYSTEMC_LIBRARY}
 )

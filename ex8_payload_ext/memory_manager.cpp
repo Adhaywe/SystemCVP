@@ -28,8 +28,7 @@ gp* MemoryManager::allocate()
     }
 }
 
-void MemoryManager::free(gp* payload)
-{
+void MemoryManager::free(gp* payload) {
     payload->reset(); //clears all extensions
     freePayloads.push_back(payload);
 }
