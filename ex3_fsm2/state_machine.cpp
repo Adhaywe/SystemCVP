@@ -66,7 +66,6 @@ void stateMachine::process() {
             }
             break;
 
-
         case GAAA:
 
             if (dna == 'G') {
