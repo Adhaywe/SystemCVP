@@ -19,7 +19,6 @@ void kpn::delay() {
     }
 }
 
-
 void kpn::split() {
     int i = 10;
 
