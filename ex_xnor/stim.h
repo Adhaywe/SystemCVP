@@ -1,7 +1,6 @@
 //
-// Created by adam on 26.11.23.
+// Created by adam on 22.02.24.
 //
-
 #ifndef STIMULUS_H
 #define STIMULUS_H
 
@@ -11,10 +10,12 @@ SC_MODULE(stim)
 {
 public:
     sc_out<bool> A, B;
+    sc_in<bool> Clk;
 
     SC_CTOR(stim)
     {
         SC_THREAD(StimGen);
+        sensitive << Clk.pos();
     }
 
 private:
@@ -23,23 +24,21 @@ private:
         wait(SC_ZERO_TIME);
         A.write(false);
         B.write(false);
-        wait(10, SC_NS);
+        wait();
         A.write(false);
         B.write(true);
-        wait(15, SC_NS);
+        wait();
         A.write(true);
         B.write(false);
-        wait(10, SC_NS);
+        wait();
         A.write(true);
         B.write(true);
-        wait(10, SC_NS);
+        wait();
         A.write(false);
         B.write(false);
-        wait(10, SC_NS);
+        wait();
         sc_stop();
     }
 };
 
-
 #endif
-
