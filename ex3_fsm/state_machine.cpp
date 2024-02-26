@@ -43,13 +43,14 @@ void stateMachine::process() {
 
             if (currentSymbol == 'G') {
                 currentState = GAAG;
+                std::cout << "We are in state GAAG !" << std::endl;
             } else if (currentSymbol == 'A' || currentSymbol == 'C' || currentSymbol == 'T') {
                 currentState = Start;
             }
             break;
 
         case GAAG:
-            std::cout << "We are in state GAAG !" << std::endl;
+            //std::cout << "We are in state GAAG !" << std::endl;
             if (currentSymbol == 'G') {
                 currentState = G_s;
             } else if (currentSymbol == 'A' || currentSymbol == 'C' || currentSymbol == 'T') {
